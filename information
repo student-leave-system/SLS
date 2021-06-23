@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 align="center">个人信息统计</h1>
+        <p align="center">在这里提交你的信息</p>
+    </div>
+
+    <div class="row" align="center">
+        <input type="text" class="form-control" style="height:40px;width:450px" placeholder="请假人班级姓名">
+        <div class="panel panel-info" style="width: 450px">
+            <div class="panel-heading">
+                <h3 class="panel-title" align="center">请假信息</h3>
+            </div>
+            <textarea class="form-control" rows="5" style="resize: none;height: 100%;width: 100%"></textarea>
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-success">提交</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
